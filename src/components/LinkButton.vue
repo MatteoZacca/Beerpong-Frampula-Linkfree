@@ -10,7 +10,7 @@ defineProps({
   <li class="list-item">
     <a :href="url" target="_blank">
       <img :src="icon" :alt="name">
-      {{ name }}
+      {{ socialName }}
     </a>
   </li>
 </template>
@@ -37,15 +37,14 @@ a {
 }
 
 a:hover, a:active {
-  border: #ffce76 2px solid;
   background-color: #1d1919;
   color: #ffce76;
 }
 
 img {
-  margin: 0em 0.2em;
+  margin: 0em 0.5em;
   border-radius: 100%;
-  width: 1.4em;
+  width: 1.7em;
 }
 
 a:hover img {

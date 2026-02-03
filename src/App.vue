@@ -79,7 +79,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+}
+
+.linkscard_div {
+  flex: 1;
+  margin-bottom: 1em;
+  padding: 1em 1em;
+  border-left: #ffce76 2px solid;
+  border-right: #ffce76 2px solid;
+  border-radius: 2em;
 }
 
 .linkscard_div ul {
