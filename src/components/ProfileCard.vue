@@ -1,7 +1,7 @@
 <template>
     <div class="whoami_div">
         <div class="profilepic_div">
-            <img src="/src/public/logos/logo.png" alt="Profile Picture" class="profilepic">
+            <img src="/logos/logo.png" alt="Profile Picture" class="profilepic">
         </div>
         
         <div class="textinfo">

@@ -8,25 +8,25 @@ const socialLinks = [
     id: 1,
     socialName: 'Facebook',
     url:'https://www.facebook.com/beerpongframpula/?locale=it_IT',
-    icon: '/src/public/icons/facebook.png'
+    icon: '/icons/facebook.png'
   }, 
   {
     id: 2, 
     socialName: 'Modulo iscrizioni', 
     url: 'https://tally.so/r/wg82YD', 
-    icon: '/src/public/icons/bicchieri.png'
+    icon: '/icons/bicchieri.png'
   },
   {
     id: 3, 
     socialName: 'Telegram', 
     url: 'https://t.me/beerpongframpula', 
-    icon: '/src/public/icons/telegram.png'
+    icon: '/icons/telegram.png'
   },
   {
     id: 4, 
     socialName: 'WhatsApp', 
     url: 'https://wa.me/393513275210', 
-    icon: '/src/public/icons/whatsapp.png'
+    icon: '/icons/whatsapp.png'
   }
 ];
 </script>
