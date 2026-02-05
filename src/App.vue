@@ -51,16 +51,18 @@ const socialLinks = [
 
 <style scoped>
 .profile_card_div {
-  flex: 0.8;
+  width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2em;
 }
 
 .linkscard_div {
   flex: 1;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
   padding: 1em 1em;
   border-left: #ffce76 2px solid;
   border-right: #ffce76 2px solid;

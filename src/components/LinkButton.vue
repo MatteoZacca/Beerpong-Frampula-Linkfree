@@ -9,7 +9,7 @@ defineProps({
 <template>
   <li class="list-item">
     <a :href="url" target="_blank">
-      <img :src="icon" :alt="name">
+      <img :src="icon" :alt="socialName">
       {{ socialName }}
     </a>
   </li>

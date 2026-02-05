@@ -11,8 +11,7 @@ const privacyUrl = "https://drive.google.com/file/d/11CgKT53v5hA_vzgQJJU4hmVydI3
 <style scoped>
 .privacy_div {   
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 0.3em; 
+  margin-top: 2em; 
 } 
 
 .privacy_div a {
@@ -25,7 +24,7 @@ const privacyUrl = "https://drive.google.com/file/d/11CgKT53v5hA_vzgQJJU4hmVydI3
 
 @media screen and (orientation: portrait) {
   .privacy_div {
-    margin-top: 0.20em;    
+    margin-top: 0.2em;    
   }
 
   /* The specific hover effect for mobile/portrait */
