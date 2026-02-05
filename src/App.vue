@@ -50,28 +50,6 @@ const socialLinks = [
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #1d1919;
-  display: flex;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  min-height: 100vh; /* Ensure full height */
-  background: radial-gradient(
-    circle,
-    rgba(29, 25, 25, 0.837) 0%,
-    rgba(29, 25, 25, 1) 50%,
-    rgba(25, 26, 29, 1) 100%
-  );
-}
-
 .profile_card_div {
   flex: 0.8;
   display: flex;
