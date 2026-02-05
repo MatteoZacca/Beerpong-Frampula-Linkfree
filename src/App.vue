@@ -8,25 +8,25 @@ const socialLinks = [
     id: 1,
     socialName: 'Facebook',
     url:'https://www.facebook.com/beerpongframpula/?locale=it_IT',
-    icon: '/public/icons/facebook.png'
+    icon: '/src/public/icons/facebook.png'
   }, 
   {
     id: 2, 
     socialName: 'Modulo iscrizioni', 
     url: 'https://tally.so/r/wg82YD', 
-    icon: '/public/icons/bicchieri.png'
+    icon: '/src/public/icons/bicchieri.png'
   },
   {
     id: 3, 
     socialName: 'Telegram', 
     url: 'https://t.me/beerpongframpula', 
-    icon: '/public/icons/telegram.png'
+    icon: '/src/public/icons/telegram.png'
   },
   {
     id: 4, 
     socialName: 'WhatsApp', 
     url: 'https://wa.me/393513275210', 
-    icon: '/public/icons/whatsapp.png'
+    icon: '/src/public/icons/whatsapp.png'
   }
 ];
 </script>
@@ -72,7 +72,6 @@ body {
   );
 }
 
-/* Container styles */
 .profile_card_div {
   flex: 0.8;
   display: flex;
@@ -96,5 +95,11 @@ body {
   justify-content: center;
   align-items: center;
   list-style-type: none;
+}
+
+@media screen and (orientation: portrait) {
+  .profile_card_div {
+    margin: 1em 1em; 
+  }
 }
 </style>

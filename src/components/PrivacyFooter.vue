@@ -1,5 +1,4 @@
 <script setup>
-// I stored the long URL in a variable to keep the template clean
 const privacyUrl = "https://drive.google.com/file/d/11CgKT53v5hA_vzgQJJU4hmVydI32r2jT/view?usp=drive_link/privacy.html";
 </script>
 
@@ -10,7 +9,6 @@ const privacyUrl = "https://drive.google.com/file/d/11CgKT53v5hA_vzgQJJU4hmVydI3
 </template>
 
 <style scoped>
-/* Base styles */
 .privacy_div {   
   text-align: center;
   margin-top: 1em;
@@ -25,10 +23,6 @@ const privacyUrl = "https://drive.google.com/file/d/11CgKT53v5hA_vzgQJJU4hmVydI3
   transition: all 0.2s ease;
 }
 
-/* In your original CSS, the hover effect and some spacing 
-  were specific to Portrait orientation (Mobile).
-  I kept that logic here.
-*/
 @media screen and (orientation: portrait) {
   .privacy_div {
     margin-top: 0.20em;    
