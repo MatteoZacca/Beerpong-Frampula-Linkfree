@@ -45,23 +45,23 @@ const socialLinks = [
         />
       </ul>
     </div>
-    <PrivacyFooter />
+    <PrivacyFooter class="footer-push"/>
   </div>
 </template>
 
 <style scoped>
 .profile_card_div {
+  min-height: 100vh;
   width: 100%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  padding-top: 2em;
 }
 
 .linkscard_div {
-  flex: 1;
   margin-top: 1.5em;
   padding: 1em 1em;
   border-left: #ffce76 2px solid;
@@ -75,6 +75,11 @@ const socialLinks = [
   justify-content: center;
   align-items: center;
   list-style-type: none;
+}
+
+.footer-push {
+  margin-top: auto;
+  margin-bottom: 0.5em;   
 }
 
 @media screen and (orientation: portrait) {
