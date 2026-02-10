@@ -26,8 +26,8 @@
     width: 18em;
 }
 .whoami_div .profilepic_div .profilepic {
-    border: #ffcf765f 5px solid;
     padding: 0.5em;
+    border: #ffcf765f 5px solid;
     border-radius: 50%;
     width: 80%;
     transition: 0.5s ease;

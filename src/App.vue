@@ -81,10 +81,4 @@ const socialLinks = [
   margin-top: auto;
   margin-bottom: 0.5em;   
 }
-
-@media screen and (orientation: portrait) {
-  .profile_card_div {
-    margin: 1em 1em; 
-  }
-}
 </style>
