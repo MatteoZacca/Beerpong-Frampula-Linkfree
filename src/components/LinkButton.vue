@@ -16,21 +16,20 @@ defineProps({
 </template>
 
 <style scoped>
-/* Move the specific CSS for the button here */
 .list-item {
   margin: 0.5em;
 }
 
 a {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
   background-color: #ffce76;
   text-decoration: none;
   width: 312px;
   color: #1d1919;
   padding: 1em 0em;
   border-radius: 10em;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
   border: #ffce76 2px solid;
   font-weight: 900;
   transition: 0.2s ease;
@@ -51,11 +50,5 @@ a:hover img {
   background-color: #ffce76;
 }
 
-/* Mobile Media Query adapted for scoped CSS */
-@media (max-width: 768px) {
-  a {
-    width: 100%;
-    max-width: 600px;
-  }
-}
+@media (max-width: 768px) {}
 </style>

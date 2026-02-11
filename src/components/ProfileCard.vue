@@ -38,7 +38,7 @@
 .whoami_div .textinfo {
     text-align: center;
     color: #ffce76;
-    margin-top: 0.5em;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 .whoami_div .textinfo .name {
