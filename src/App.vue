@@ -15,25 +15,25 @@ const socialLinks: SocialLink[] = [
     id: 1,
     socialName: 'Facebook',
     url:'https://www.facebook.com/beerpongframpula/?locale=it_IT',
-    icon: '/icons/facebook.png'
+    icon: '/linktree/icons/facebook.png'
   }, 
   {
     id: 2, 
     socialName: 'Modulo iscrizioni', 
     url: 'https://tally.so/r/wg82YD', 
-    icon: '/icons/bicchieri.png'
+    icon: '/linktree/icons/bicchieri.png'
   },
   {
     id: 3, 
     socialName: 'Telegram', 
     url: 'https://t.me/beerpongframpula', 
-    icon: '/icons/telegram.png'
+    icon: '/linktree/icons/telegram.png'
   },
   {
     id: 4, 
     socialName: 'WhatsApp', 
     url: 'https://wa.me/393513275210', 
-    icon: '/icons/whatsapp.png'
+    icon: '/linktree/icons/whatsapp.png'
   }
 ];
 </script>
