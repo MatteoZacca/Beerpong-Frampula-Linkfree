@@ -1,9 +1,9 @@
-<script setup>
-defineProps({
-  socialName: String,
-  url: String,
-  icon: String
-})
+<script setup lang="ts">
+defineProps<{
+  socialName: string;
+  url: string;
+  icon: string;
+}>();
 </script>
 
 <template>

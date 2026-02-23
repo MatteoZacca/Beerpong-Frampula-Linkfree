@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const privacyUrl = "https://drive.google.com/file/d/11CgKT53v5hA_vzgQJJU4hmVydI32r2jT/view?usp=drive_link/privacy.html";
 </script>
 
