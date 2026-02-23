@@ -1,9 +1,16 @@
-<script setup>
+<script setup lang="ts">
 import ProfileCard from '@/components/ProfileCard.vue';
 import LinkButton from '@/components/LinkButton.vue';
 import PrivacyFooter from '@/components/PrivacyFooter.vue';
 
-const socialLinks = [
+interface SocialLink {
+  id: number;
+  socialName: string;
+  url: string;
+  icon: string;
+}
+
+const socialLinks: SocialLink[] = [
   {
     id: 1,
     socialName: 'Facebook',
