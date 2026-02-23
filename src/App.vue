@@ -10,30 +10,32 @@ interface SocialLink {
   icon: string;
 }
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const socialLinks: SocialLink[] = [
   {
     id: 1,
     socialName: 'Facebook',
     url:'https://www.facebook.com/beerpongframpula/?locale=it_IT',
-    icon: '/linktree/icons/facebook.png'
+    icon: `${baseUrl}icons/facebook.png`
   }, 
   {
     id: 2, 
     socialName: 'Modulo iscrizioni', 
     url: 'https://tally.so/r/wg82YD', 
-    icon: '/linktree/icons/bicchieri.png'
+    icon: `${baseUrl}icons/bicchieri.png`
   },
   {
     id: 3, 
     socialName: 'Telegram', 
     url: 'https://t.me/beerpongframpula', 
-    icon: '/linktree/icons/telegram.png'
+    icon: `${baseUrl}icons/telegram.png`
   },
   {
     id: 4, 
     socialName: 'WhatsApp', 
     url: 'https://wa.me/393513275210', 
-    icon: '/linktree/icons/whatsapp.png'
+    icon: `${baseUrl}icons/whatsapp.png`
   }
 ];
 </script>
