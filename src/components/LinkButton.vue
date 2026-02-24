@@ -26,7 +26,7 @@ a {
   justify-content: center; 
   background-color: #ffce76;
   text-decoration: none;
-  width: 290px;
+  width: 312px;
   color: #1d1919;
   padding: 1em 0em;
   border-radius: 10em;
@@ -50,5 +50,5 @@ a:hover img {
   background-color: #ffce76;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 275px) {}
 </style>
