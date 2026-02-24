@@ -26,7 +26,7 @@ a {
   justify-content: center; 
   background-color: #ffce76;
   text-decoration: none;
-  width: 312px;
+  width: 290px;
   color: #1d1919;
   padding: 1em 0em;
   border-radius: 10em;
