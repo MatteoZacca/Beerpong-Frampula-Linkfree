@@ -21,7 +21,7 @@ const socialLinks: SocialLink[] = [
   }, 
   {
     id: 2, 
-    socialName: 'Modulo iscrizioni', 
+    socialName: 'Modulo Iscrizioni', 
     url: 'https://tally.so/r/wg82YD', 
     icon: `${baseUrl}icons/bicchieri.png`
   },
@@ -32,7 +32,13 @@ const socialLinks: SocialLink[] = [
     icon: `${baseUrl}icons/telegram.png`
   },
   {
-    id: 4, 
+    id: 4,
+    socialName: 'Regolamento Torneo',
+    url: 'https://drive.google.com/file/d/1JaYDRoceg8GfUh_0fUea9oxdiiEfrBnL/view?usp=sharing',
+    icon: `${baseUrl}icons/regolamento.png` 
+  },
+  {
+    id: 5, 
     socialName: 'WhatsApp', 
     url: 'https://wa.me/393513275210', 
     icon: `${baseUrl}icons/whatsapp.png`
