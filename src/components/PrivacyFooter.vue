@@ -17,7 +17,7 @@ const privacyUrl = "https://drive.google.com/file/d/11CgKT53v5hA_vzgQJJU4hmVydI3
   color: rgb(145, 152, 161);            
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 0.6em;
   transition: all 0.2s ease;
 }
 

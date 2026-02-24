@@ -23,11 +23,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 18em;
+    width: 14em;
 }
 .whoami_div .profilepic_div .profilepic {
-    padding: 0.5em;
-    border: #ffcf765f 5px solid;
+    padding: 0.35em;
+    border: #ffcf765f 4px solid;
     border-radius: 50%;
     width: 80%;
     transition: 0.5s ease;
@@ -45,12 +45,12 @@
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0.03em;
     word-spacing: 0.1em;
-    font-size: 2em;
+    font-size: 1.5em;
     transition: 0.5s ease;
 }
 .whoami_div .textinfo .description {
     letter-spacing: 0.03em;
-    font-size: 0.9em;
+    font-size: 0.8em;
     opacity: 0.5;
     margin-top: 0.2em;
 }

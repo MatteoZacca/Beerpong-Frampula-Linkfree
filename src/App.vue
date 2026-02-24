@@ -67,12 +67,13 @@ const socialLinks: SocialLink[] = [
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .linkscard_div {
   margin-top: 1.5em;
-  padding: 1em 1em;
+  margin-bottom: 3em;
+  padding: 2em 1em;
   border-left: #ffce76 2px solid;
   border-right: #ffce76 2px solid;
   border-radius: 2em;
