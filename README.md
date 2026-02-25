@@ -14,7 +14,7 @@ To work on this project, ensure you have **Node.js** installed along with npm.
 * Chromium-based (Chrome, Edge, Brave): [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) & [Custom Object Formatter](http://bit.ly/object-formatters)
 * Firefox: [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/) & [Custom Object Formatter](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## Project Setup
+## Local Project Setup
 
 First, install the required dependencies:
 ```sh
@@ -30,6 +30,24 @@ Builds the app for production to the dist folder.
 ```sh
 npm run build
 ```
+## Test and run inside a Docker container
+
+### Development
+
+First, make sure you have [Docker installed](https://docs.docker.com/engine/install/).
+Using a containerized approach, for local development (Vue app build) you can simply run:
+```sh
+docker compose up dev
+```
+This would expose the app at `localhost:5173/linktree`.
+
+### Production test
+
+Likewise, for the production test you can run:
+```sh
+docker compose up --build prod-test
+```
+which will use [nginx](https://nginx.org/en/) to serve the app at `localhost:8080/linktree`.
 
 ## Git Commit Conventions
 * **feat**: adds, adjusts, or removes a new feature to the API or UI.
